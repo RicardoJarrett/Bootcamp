@@ -8,6 +8,9 @@ body {
     text-align: center;
 }
 
+/*Button attributes found below:
+https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/
+*/
 .navButton {
     background-color: #0079ff;
     color: #212913;
