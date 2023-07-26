@@ -1,0 +1,30 @@
+html {
+    font: 16px "Arial" 
+}
+
+body {
+    background-color: #0079ff;
+    color: #212913;
+    text-align: center;
+}
+
+.navButton {
+    background-color: #0079ff;
+    color: #212913;
+    border: none;
+    min-height: 2rem;
+}
+
+.navButton:hover {
+    background-color: #0a6fe3;
+    transition: 0.4s;
+}
+
+body nav {
+    /*background-color: #0d68d1;*/
+    border:#F6Fa70 solid;
+    margin: 0.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    
+}
