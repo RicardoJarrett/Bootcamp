@@ -6,6 +6,12 @@ body {
     background-color: #0079ff;
     color: #212913;
     text-align: center;
+    padding-bottom: 3rem;
+}
+
+img {
+    float: left;
+    margin: 2.5%;
 }
 
 /*Button attributes found below:
@@ -20,14 +26,47 @@ https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/
 
 .navButton:hover {
     background-color: #0a6fe3;
-    transition: 0.4s;
+    border:#F6Fa70 solid;
+    transition: 0.1s;
+    font-weight: bold;
 }
 
-body nav {
+#navMenu {
     /*background-color: #0d68d1;*/
     border:#F6Fa70 solid;
     margin: 0.5rem;
     margin-top: 1rem;
     text-align: center;
-    
+}
+
+#footerDiv {
+    height: 3rem;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #212913;
+}
+
+a:hover {
+    background-color: #0a6fe3;
+    transition: 0.1s;
+    font-weight: bold;
+}
+
+.sectionDiv {
+    border: #F6Fa70 solid;
+    padding-bottom: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1rem;
+}
+
+.homepageSectionDiv {
+    border: #F6Fa70 solid;
+    padding-bottom: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1rem;
+    min-height: 10rem;
 }
